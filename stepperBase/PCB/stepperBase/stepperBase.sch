@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A1
+U 1 1 622B3F4C
+P 5300 4400
+F 0 "A1" H 4900 3350 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 4750 3250 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5300 4400 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 622B5F71
+P 2850 3600
+F 0 "J1" H 2950 3950 50  0000 C CNN
+F 1 "Grove" H 2950 3850 50  0000 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 2850 3600 50  0001 C CNN
+F 3 "~" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 622B8CA6
+P 3450 3400
+F 0 "#PWR0101" H 3450 3250 50  0001 C CNN
+F 1 "+5V" H 3465 3573 50  0000 C CNN
+F 2 "" H 3450 3400 50  0001 C CNN
+F 3 "" H 3450 3400 50  0001 C CNN
+	1    3450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 622B9794
+P 3450 3900
+F 0 "#PWR0102" H 3450 3650 50  0001 C CNN
+F 1 "GND" H 3455 3727 50  0000 C CNN
+F 2 "" H 3450 3900 50  0001 C CNN
+F 3 "" H 3450 3900 50  0001 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3800 3450 3900
+Wire Wire Line
+	3450 3400 3450 3600
+Connection ~ 3450 3600
+Wire Wire Line
+	3450 3600 3450 3700
+Wire Wire Line
+	3050 3600 3450 3600
+Wire Wire Line
+	3050 3700 3450 3700
+Wire Wire Line
+	3050 3800 3450 3800
+Wire Wire Line
+	3050 3500 3400 3500
+Text Label 3400 3500 2    50   ~ 0
+Mot1
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 622BDA1D
+P 2850 4600
+F 0 "J2" H 2950 4950 50  0000 C CNN
+F 1 "Grove" H 2950 4850 50  0000 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 2850 4600 50  0001 C CNN
+F 3 "~" H 2850 4600 50  0001 C CNN
+	1    2850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 622BDA23
+P 3450 4400
+F 0 "#PWR0103" H 3450 4250 50  0001 C CNN
+F 1 "+5V" H 3465 4573 50  0000 C CNN
+F 2 "" H 3450 4400 50  0001 C CNN
+F 3 "" H 3450 4400 50  0001 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 622BDA29
+P 3450 4900
+F 0 "#PWR0104" H 3450 4650 50  0001 C CNN
+F 1 "GND" H 3455 4727 50  0000 C CNN
+F 2 "" H 3450 4900 50  0001 C CNN
+F 3 "" H 3450 4900 50  0001 C CNN
+	1    3450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4800 3450 4900
+Wire Wire Line
+	3450 4400 3450 4600
+Connection ~ 3450 4600
+Wire Wire Line
+	3450 4600 3450 4700
+Wire Wire Line
+	3050 4600 3450 4600
+Wire Wire Line
+	3050 4700 3450 4700
+Wire Wire Line
+	3050 4800 3450 4800
+Wire Wire Line
+	3050 4500 3400 4500
+Text Label 3400 4500 2    50   ~ 0
+Mot2
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 622BE3E9
+P 2850 5600
+F 0 "J3" H 2950 5950 50  0000 C CNN
+F 1 "Grove" H 2950 5850 50  0000 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 2850 5600 50  0001 C CNN
+F 3 "~" H 2850 5600 50  0001 C CNN
+	1    2850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 622BE3EF
+P 3450 5400
+F 0 "#PWR0105" H 3450 5250 50  0001 C CNN
+F 1 "+5V" H 3465 5573 50  0000 C CNN
+F 2 "" H 3450 5400 50  0001 C CNN
+F 3 "" H 3450 5400 50  0001 C CNN
+	1    3450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 622BE3F5
+P 3450 5900
+F 0 "#PWR0106" H 3450 5650 50  0001 C CNN
+F 1 "GND" H 3455 5727 50  0000 C CNN
+F 2 "" H 3450 5900 50  0001 C CNN
+F 3 "" H 3450 5900 50  0001 C CNN
+	1    3450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5800 3450 5900
+Wire Wire Line
+	3450 5400 3450 5600
+Connection ~ 3450 5600
+Wire Wire Line
+	3450 5600 3450 5700
+Wire Wire Line
+	3050 5600 3450 5600
+Wire Wire Line
+	3050 5700 3450 5700
+Wire Wire Line
+	3050 5800 3450 5800
+Wire Wire Line
+	3050 5500 3400 5500
+Text Label 3400 5500 2    50   ~ 0
+Mot3
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 622BF34A
+P 2850 6600
+F 0 "J4" H 2950 6950 50  0000 C CNN
+F 1 "Grove" H 2950 6850 50  0000 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 2850 6600 50  0001 C CNN
+F 3 "~" H 2850 6600 50  0001 C CNN
+	1    2850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 622BF350
+P 3450 6400
+F 0 "#PWR0107" H 3450 6250 50  0001 C CNN
+F 1 "+5V" H 3465 6573 50  0000 C CNN
+F 2 "" H 3450 6400 50  0001 C CNN
+F 3 "" H 3450 6400 50  0001 C CNN
+	1    3450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 622BF356
+P 3450 6900
+F 0 "#PWR0108" H 3450 6650 50  0001 C CNN
+F 1 "GND" H 3455 6727 50  0000 C CNN
+F 2 "" H 3450 6900 50  0001 C CNN
+F 3 "" H 3450 6900 50  0001 C CNN
+	1    3450 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6800 3450 6900
+Wire Wire Line
+	3450 6400 3450 6600
+Connection ~ 3450 6600
+Wire Wire Line
+	3450 6600 3450 6700
+Wire Wire Line
+	3050 6600 3450 6600
+Wire Wire Line
+	3050 6700 3450 6700
+Wire Wire Line
+	3050 6800 3450 6800
+Wire Wire Line
+	3050 6500 3400 6500
+Text Label 3400 6500 2    50   ~ 0
+Mot4
+Wire Wire Line
+	4800 4100 4450 4100
+Text Label 4450 4100 0    50   ~ 0
+Mot1
+Wire Wire Line
+	4800 4200 4450 4200
+Text Label 4450 4200 0    50   ~ 0
+Mot2
+Wire Wire Line
+	4800 4300 4450 4300
+Text Label 4450 4300 0    50   ~ 0
+Mot3
+Wire Wire Line
+	4800 4400 4450 4400
+Text Label 4450 4400 0    50   ~ 0
+Mot4
+$Comp
+L power:GND #PWR0109
+U 1 1 622C2718
+P 5350 5700
+F 0 "#PWR0109" H 5350 5450 50  0001 C CNN
+F 1 "GND" H 5355 5527 50  0000 C CNN
+F 2 "" H 5350 5700 50  0001 C CNN
+F 3 "" H 5350 5700 50  0001 C CNN
+	1    5350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5700 5350 5450
+Wire Wire Line
+	5300 5400 5300 5450
+Wire Wire Line
+	5300 5450 5350 5450
+Wire Wire Line
+	5400 5450 5400 5400
+$Comp
+L power:+5V #PWR0110
+U 1 1 622C3733
+P 5500 3250
+F 0 "#PWR0110" H 5500 3100 50  0001 C CNN
+F 1 "+5V" H 5515 3423 50  0000 C CNN
+F 2 "" H 5500 3250 50  0001 C CNN
+F 3 "" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3400 5500 3250
+NoConn ~ 5200 3400
+NoConn ~ 5400 3400
+NoConn ~ 5800 3900
+NoConn ~ 5800 3800
+NoConn ~ 5800 4200
+$Comp
+L Switch:SW_DIP_x08 SW1
+U 1 1 622C6CF4
+P 6200 4800
+F 0 "SW1" H 6200 5467 50  0000 C CNN
+F 1 "SW_DIP_x08" H 6200 5376 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile" H 6200 4800 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4400 5900 4400
+Wire Wire Line
+	5900 4500 5800 4500
+Wire Wire Line
+	5900 4600 5800 4600
+Wire Wire Line
+	5900 4700 5800 4700
+Wire Wire Line
+	5900 4800 5800 4800
+Wire Wire Line
+	5900 4900 5800 4900
+Wire Wire Line
+	5900 5100 5900 6100
+Wire Wire Line
+	5900 6100 4150 6100
+Wire Wire Line
+	4150 6100 4150 4900
+Wire Wire Line
+	4150 4900 4800 4900
+Wire Wire Line
+	4200 5000 4200 6050
+Wire Wire Line
+	5850 5000 5900 5000
+Wire Wire Line
+	5850 6050 5850 5000
+NoConn ~ 5800 5100
+NoConn ~ 5800 5000
+NoConn ~ 4800 5100
+NoConn ~ 4800 4800
+NoConn ~ 4800 4700
+NoConn ~ 4800 4600
+NoConn ~ 4800 4500
+NoConn ~ 4800 4000
+NoConn ~ 4800 3900
+NoConn ~ 4800 3800
+Wire Wire Line
+	4200 6050 5850 6050
+Wire Wire Line
+	4200 5000 4800 5000
+$Comp
+L power:GND #PWR0111
+U 1 1 622D8033
+P 6500 5350
+F 0 "#PWR0111" H 6500 5100 50  0001 C CNN
+F 1 "GND" H 6505 5177 50  0000 C CNN
+F 2 "" H 6500 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5350 6500 5100
+Connection ~ 6500 4500
+Wire Wire Line
+	6500 4500 6500 4400
+Connection ~ 6500 4600
+Wire Wire Line
+	6500 4600 6500 4500
+Connection ~ 6500 4700
+Wire Wire Line
+	6500 4700 6500 4600
+Connection ~ 6500 4800
+Wire Wire Line
+	6500 4800 6500 4700
+Connection ~ 6500 4900
+Wire Wire Line
+	6500 4900 6500 4800
+Connection ~ 6500 5000
+Wire Wire Line
+	6500 5000 6500 4900
+Connection ~ 6500 5100
+Wire Wire Line
+	6500 5100 6500 5000
+$Comp
+L Device:CP C1
+U 1 1 622DFB06
+P 3850 3950
+F 0 "C1" H 3968 3996 50  0000 L CNN
+F 1 "CP" H 3968 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3888 3800 50  0001 C CNN
+F 3 "~" H 3850 3950 50  0001 C CNN
+	1    3850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 622DFD7A
+P 3850 3750
+F 0 "#PWR0112" H 3850 3600 50  0001 C CNN
+F 1 "+5V" H 3865 3923 50  0000 C CNN
+F 2 "" H 3850 3750 50  0001 C CNN
+F 3 "" H 3850 3750 50  0001 C CNN
+	1    3850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 622E02A0
+P 3850 4150
+F 0 "#PWR0113" H 3850 3900 50  0001 C CNN
+F 1 "GND" H 3855 3977 50  0000 C CNN
+F 2 "" H 3850 4150 50  0001 C CNN
+F 3 "" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4150 3850 4100
+Wire Wire Line
+	3850 3800 3850 3750
+Connection ~ 5350 5450
+Wire Wire Line
+	5350 5450 5400 5450
+$EndSCHEMATC
